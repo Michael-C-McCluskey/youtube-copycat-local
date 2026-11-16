@@ -1,0 +1,21 @@
+# Python & Node caches / virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+node_modules/
+.cache/
+*.log
+
+# Environment & secrets
+.env*
+
+# CopyCat Builder cross-agent scratch & generated replicas
+.copycat_scratch/
+projects/
+
+# OS & editor artifacts
+.DS_Store
+Thumbs.db
